@@ -1,0 +1,109 @@
+body{font-size:.6em; font-family:Verdana,Arial,Helvetica,sans-serif; padding:0; margin:0; line-height:1.2em; color:#333; background: #fff; }
+h1{font-size:1.3em; padding-top:5px; color:#000; line-height:1em; }
+h2{font-size:1.4em; padding-top:0px; padding-bottom:3px; }
+h3{font-size:1.2em; padding:.7em 0 .5em; }
+h4{font-size:1em; background-color:#999; padding:.7em 0 .5em; }
+h5{font-size:1em; padding-bottom:3px; }
+p{padding:0; }
+form{display:block; border-collapse:collapse; }
+label{display:inline-block; text-align:left;margin:0 0 0 3px; font-weight:700; padding:0; }
+.labelTextarea {margin:7px 0 7px 3px;}
+input{ font-family:Verdana,Arial,Helvetica,sans-serif; font-size:1.2em; text-align:left; }
+textarea{width:450px; vertical-align:top; font-family:Verdana,Arial,Helvetica,sans-serif; font-size:1.2em; text-align:left; margin-right:15px; }
+select{height:17px; font-size:1em; }
+.narrow{width:260px; }
+.narrow1{width:170px; }
+.narrow2{width:40px; }
+.narrow3{width:110px;}
+.hiddenfield{display:none; }
+a{color:#669c27; outline:none;}
+a:hover{background-color:#91D93C; color:#444; }
+li{display:block; /*clear:both*/;padding-top:5px; padding-left:0; }
+ul{overflow:hidden; background-color:#f5f5f5; }
+form ul{border:1px solid #999; margin:5px 0; padding:5px;clear:both;}
+form ul ul {border:none;padding:0;margin:0;}
+.success{display:block; width:200px; margin-top:10px; border:2px dotted green; background-color:#c7fb90; padding:0; }
+.failure{display:block; width:200px; border:2px dotted red; background-color:#f99; margin:10px 0 0 5px; padding:0; }
+.border {border:1px solid #999999;padding-left:5px;background:white;}
+
+td,th{border:1px solid #999; padding:2px; }
+tr:hover{background-color:#f5f5f5; }
+table{table-layout:fixed; vertical-align:baseline; border:1px solid #999; }
+tr{vertical-align:baseline; }
+.rowheight{height:75px; overflow:hidden; float:left; margin:0; padding:0; }
+th{background-color:#fff; text-align:left; }
+img{display:inline; margin:0; padding:0; }
+
+/** Top Navigation **/
+.left{float:left; padding-right:10px;display:inline-block; }
+#mainNav{width:100%; margin:0 auto; padding:0; background: transparent url(../images/logo_bg.gif) repeat-x; height: 61px; }
+#mainNav img{margin-left:500px;}
+#mainNav a{ background:#91d93c; margin-left:10px; color:#000; text-decoration:none; font-weight:700; font-size:1.2em; padding: 0 4px;
+  border:1px solid transparent ;line-height:20px; display: block; float: left; margin-top: 38px;
+  border-color:rgba(255, 255, 255, 0.4) rgba(0, 0, 0, 0.125) rgba(0, 0, 0, 0) rgba(255, 255, 255, 0.2);
+  }
+#mainNav a:hover{background:#53841a; color:#FFF; }
+#mainNav a:active{background:#58841a; }
+#logo { position: absolute; right: 20px; top: 0; }
+
+
+#mainContainer{border:none; padding:0; }
+.contentSection{border:none; position:relative; padding:10px ; background-color: #fff; }
+.contentSection p{padding:3px 0; }
+.contentSectionTitle{position:relative; top:0; left:0;float:left; height:14px; border:none; background:#FFF; margin:0; padding:5px 60px 5px 0; }
+.contentSectionTitle h2{font-size:1.6em; float:left; display:block; padding:0; }
+.contentSectionTitle a{float:right; display:block; padding-right:5px; }
+.submitButton{-moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.35);height:20px;border:1px solid transparent;border-color:rgba(255, 255, 255, 0.4) rgba(0, 0, 0, 0.125) rgba(0, 0, 0, 0.25) rgba(255, 255, 255, 0.2);
+             background-color:#91d93c; padding:3px; margin:5px 0;font-size:.9em; text-align:center;text-transform: uppercase;color:#333333;}
+.submitButton:hover {background-color:#53841a; color:#FFF;}
+input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner {border : 0px;}/*removes outline on click*/
+.ajax-save-button {background: transparent url("../images/admin/accept16.png") no-repeat;border:none;text-indent:-9999px;width:16px;height:16px;cursor:pointer;}
+.ajax-save-button:hover {background-position:1px 1px}
+.ajax-save-button:active {outline:none;border:none;}
+.editPartType h4 {font-size:1.1em;padding:3px 5px;height:26px;background-color:#c3c3c3;width:155px;}
+
+
+
+/** Part Overview **/
+#builderNavCntA{border-top:solid 1px #999999; position:fixed;  overflow:auto; bottom:0; z-index:999; margin:0; margin-left:1136px}
+ul#builderNavA{display:block; margin-left:0; margin-top:0; margin-bottom:0; padding:0 0 0 0px; ; padding-left:-5px;}
+ul#builderNavA li{ display:block; clear:none; margin:0; padding:0; }
+ul#builderNavA a{ display:block; line-height:15px; text-transform:uppercase; padding:0 5px; text-align:center;}
+ul#builderNavA a:hover{text-decoration:underline; }
+
+/** Part Editor **/
+.addPictures{clear:none; display:block; float:left;  background:white; margin:0 5px 0 0 ;border:1px solid #999999; padding:5px 10px;height:128px;}
+#imgCont{float:left; }
+#imgCont ul {width:1168px;}
+#imgCont ul h2 {}
+#imgCont li ul li {float:left;margin:0 5px 0 0}
+.subtypePart {float:left;display:block;padding-right:40px;width:400px;}
+.subtypePart li {padding-top:0;}
+
+/** Model Editor **/
+.subTypeCont{float:left; width:100%;}
+.subType{border-right:0px solid #999; float:left; padding:5px;width:155px; background:white;}
+.subType select {width:80px;}
+.uploadImageBox{display:block; width:100px; padding-top:4px; padding-right:3px; float:left; }
+.browseImageButton{display:block; width:100px; float:left; margin-right:150px; }
+.uploadImageButton{display:block; width:100px; float:left; border:1px solid #000; background-color:#FFF; margin-top:2px; height:25px; }
+.addPartButton{width:65px; border:none;background:transparent url(../images/admin/add_part.gif) no-repeat center;margin-top:5px; margin-left:5px; margin-right:5px; font-size:.8em; color:transparent; text-transform:capitalize; height:20px; }
+.addPartButton:hover{background-image: url(../images/admin/add_part_hover.gif)}
+.editPartType{min-height:142px;float:left;  margin:1px; padding:0;border:1px solid #999999;overflow:hidden;}
+.editPartType li {padding:0;}
+.editPartType li.header {background-color: #C3C3C3; border-bottom:solid 1px #999999;}
+ul.modelPartList{border:0; background-color:transparent; margin:0 0 0px; padding:0; }
+ul.modelPartList li{display:list-item; list-style:square; margin-left:0; padding:0; }
+.tabContent {width:950px;}
+div.leftcont {overflow: hidden;}
+div.leftcont:after{visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;}
+#noback{background:none; background-color:#fff; }
+.hidden{display:none; height:0; width:0; margin:0; padding:0; }
+.rowheight textarea{font-size:1em; border:none; }
+.rowheight input{font-size:1em; }
+.nopad{margin:0; padding:0; }

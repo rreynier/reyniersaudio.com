@@ -1,0 +1,32 @@
+/** RIGHT COLUMN CART **/
+#cart{color:#9a9a9a;padding-left:15px;font-size:.8em;float:none;width:180px;padding-top:0;margin-top:0;margin-bottom:0;}
+*html #cart{padding-bottom:20px;}
+li.part{list-style:none;margin:0;}
+.title{color:#FFF;margin:0;padding:0;}
+.desc{color:#9a9a9a;padding:0;margin:0;}
+#cartComputer{position:relative;top:7px;line-height:14px;font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif}
+div#cart p {padding:5px 0;line-height:12px;}
+/** html #cartComputer {	line-height: .2em}*/
+#cartComputer ul{margin:0;padding:0;}
+#cartComputer ul li ul li{padding:0;margin:0;display:block;}
+#cartComputer ul li ul li.hidden{display:none;}
+#cartComputer ul.partType{border-bottom:1px solid #353535;margin-top:0;padding-top:0;margin-bottom:1px;padding-bottom:1px;width:150px;}
+/** html #cartComputer ul.partType {padding-bottom: 8px; }*/
+#cartComputer li{list-style:none;padding:0;margin:0;display:inline;}
+#cartComputer dt{display:inline;font-weight:700;color:#FFF;}
+#cartComputer dd{display:inline;margin-left:5px;}
+#cartComputer h6{color:#ffda79;padding:0;margin:0;}
+#cartComputer h6 a{color:#ffda79;padding:0;margin:0;}
+/**html #cartComputer h6 {padding:3px 3px 0 0;}*/
+#cart .price {text-align:left;}
+#cart .asconfigured {display:block;padding-top:10px;padding-bottom:2px;font-size:1.3em;font-weight:bold;}
+#cart .carttotal {display:block;font-size:2.4em;color:#FFF;font-weight:bold; padding:0}
+#cart .shipping {display:block;padding:0 0 2px;margin:0;font-size:1em;padding-top:3px;}
+#cart a.ask {color:#538815;font-size:1.1em;display:inline;}
+#cart a.ask:hover {text-decoration:underline;}
+#cart a.ask img:hover {text-decoration:none;}
+#cart a.ask img {vertical-align:middle;padding:3px 3px 3px 0;display:inline;}
+#addToCartButton{position:relative;height:31px;margin-top:5px;width:117px;padding-bottom:5px;margin-left:0;}
+#addToCartButton a{display:block;position:absolute;height:31px;width:117px;top:0;left:0;background:url(../images/addToCart.png) no-repeat top left;text-indent:-2000px;}
+#addToCartButton a:hover{background-position:-117px;top:0;left:0;}
+#addToCartButton a:active{background-position:-234px;top:0;left:0;}

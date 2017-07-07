@@ -1,0 +1,36 @@
+root { 
+    display: block;
+}
+
+h1 {font-family: Tahoma; color:#555555; font-size:3em;padding:30px 0 30px;text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);}
+h1.daw {background: url("/splash/images/daw.png") no-repeat top left; height:23px; width:514px;text-indent:-9999px}
+
+h2 {font-family: Tahoma; color:#dd7d26; font-size:1.4em;margin-top:15px;padding:0px 0 0px;text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);}
+h2.wiadaw {background: url("/splash/images/wiadaw.png") no-repeat top left; height:23px; width:366px;text-indent:-9999px}
+h2.wiadc {background: url("/splash/images/wiadc.png") no-repeat top left; height:23px; width:366px;text-indent:-9999px}
+h2.wids {background: url("/splash/images/wids.png") no-repeat top left; height:23px; width:366px;text-indent:-9999px}
+h2.wiaai {background: url("/splash/images/wiaai.png") no-repeat top left; height:23px; width:366px;text-indent:-9999px}
+h2.wmadcbfarttap {background: url("/splash/images/wmadcbfarttap.png") no-repeat top left; height:52px; width:396px;text-indent:-9999px}
+
+
+
+p {font-family: Arial; color:#555555;line-height:1.4em;font-size:.9em;padding: 10px 0 ;}
+body {background:#555555;background-image: url("/splash/images/background.png");width:100%;}
+
+#logo a {background: url("/splash/images/logo.jpg") no-repeat; width:260px; height:64px;left:625px; display:block;text-indent:-9999px;position:relative;}
+#content {width:860px;background:white;padding:25px 70px 50px;margin-left:auto;margin-right:auto;background:url("/splash/images/contentbg.png") repeat-y;}
+#top, #middle, #bottom, .clrflt{clear:both; }
+
+#content #top #topleft {width: 415px; float:left;padding-right:25px;}
+#content #top #topright {width: 395px; float:left;padding-left:25px;padding-top:25px;}
+
+#content #middle #middleleft {width:400px; float:left; padding-right:25px;/*border-right: 1px solid #b0b0b0;*/}
+#content #middle #middleleft img {float:right;padding:25px 0 0;}
+#content #middle #middleright {width:400px; float:left; padding-left:25px;border-left: 1px solid #c3c3c3;}
+#content #middle #middleright img {padding:12px 30px 11px;}
+
+#content #bottom {padding:20px 0 0;}
+#content #bottom #bottomleft {width:375px; float:left;margin-top:70px;}
+#content a.configure {background: url("/splash/images/configurebutton.png") no-repeat;display:block; margin-left:10px; text-indent:-99999px;width:312px;height:52px;}
+#content a.configure:hover {background-position: -312px 0;}
+#content #bottom #bottomright {width:465px;float:left;}

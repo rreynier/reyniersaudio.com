@@ -1,0 +1,13 @@
+php_value max_execution_time 90
+php_flag magic_quotes_gpc Off
+ErrorDocument 404 /index.php
+Options Indexes
+Options FollowSymLinks
+RewriteEngine on
+RewriteBase /
+RewriteRule ^daw/digital-audio-workstation-computer-comparison$ /index.php?task=browse&view=models
+RewriteRule ^daw/([^/.]+)$ /index.php?task=browse&view=model&modelId=$1
+RewriteRule ^about/([^/.]+)$ /index.php?task=browse&view=about&subView=$1
+RewriteRule ^support/([^/.]+)$ /index.php?task=browse&view=support&subView=$1
+RewriteRule ^part/([^/.]+)$ /ajax/view_partDetails.php?id=$1
+

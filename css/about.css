@@ -1,0 +1,59 @@
+#aboutUs{width:1000px;background-color:#f7f7f7;color:#444;overflow:auto;background:#f7f7f7 url(../images/backgroundinfogrid.gif) repeat-y right;}
+#aboutUs h1{font-size:1.4em;padding:16px 0 0px;}
+#aboutUs h2{font-size:1.0em;font-weight:bold;padding:12px 0 3px 0; border-bottom:dotted 1px #ccc;margin-bottom:6px;}
+#aboutUs h5{padding: 2px 0 6px 0; }
+#aboutUs h6{background-color:#191919;color:#f7f7f7;padding:1px 1px 1px 5px;font-size:.8em;}
+#aboutUs p { line-height: 18px; padding-top: 5px; }
+#aboutUs img{margin-top:3px;}
+#aboutUs a{background-color:#e8e8e8;color:#538815;}
+#left{padding:15px 35px 35px 35px;float:left;width:640px;background:#f7f7f7 url(../images/backgroundinfo.jpg) no-repeat bottom left;}
+#right{margin:5px;padding-top:15px;float:left;width:220px;}
+#right h2 {  padding: 3px; border: none;font-size: 1.2em; border-bottom: 1px solid #000;}
+#right h3 { padding-bottom: 0px;}
+#right img {}
+#clearfloat{clear:both;}
+
+ul.tablist  { margin-left: 0; }
+#aboutUsTabs{padding:0;min-height:150px;float:left;margin-top:0px; background-color:#989898;}
+#aboutUsTabs .ui-tabs-nav{list-style-type:none;margin:0;padding:0 0 0 35px;display:block;/*position:relative;*/width:100%;overflow:auto;}
+* html #aboutUsTabs .ui-tabs-nav{}
+#aboutUsTabs li{padding:0;margin:0;padding-right:1px;padding:0;margin:0;display:block;float:left;}
+#aboutUsTabs li a{display:block;line-height:22px;padding:0 25px;color:#444;border-right:1px solid #989898;font-weight:normal;background-color:#e4e4e4;font-size:1.1em;}
+#aboutUsTabs li a.active{background:#F7F7F7;}
+#aboutUsTabs a:hover{background-color:#ffe399;}
+#aboutUs a:hover{background-color:#91d93c;color:#444;}
+#aboutUsTabs .ui-tabs-selected a:hover{background-color:#f7f7f7;cursor:default;}
+#aboutUsTabs .ui-tabs-selected a{background-color:#f7f7f7;}
+
+#aboutUsTabs ul.normal-list li { float: none; margin-left: 0px;padding-left:17px;}
+
+#Warranty li {background:none;}
+#left li{padding: 5px 0;list-style-position:outside;list-style-type:none;}
+#left li a:before{content:"\00BB \0020";}
+#left li a{display:inline;line-height:1em;padding:0;color:#538815;border-left:none;font-weight:400;background-color:#f7f7f7;font-size:1em;text-decoration:underline;}
+#left a:before{content:"\00BB \0020";}
+#left a{display:inline;line-height:1em;padding:0;color:#538815;border-left:none;font-weight:400;background-color:#f7f7f7;font-size:1em;text-decoration:underline;}
+#left a:hover{background-color:#91d93c;color:#444;}
+#left .whatqualifies {clear:both;}
+#left ul{margin-left:0;}
+#left .whatqualifies li{list-style: disc inside; background:none;overflow:visible;padding-left:0px;line-height:.7em;display:list-item;float:none;}
+#left .whatqualifies li:hover{background:none}
+#left .whatqualifies {padding-left:18px;padding-bottom:10px;}
+#left .whatqualifies h3 {padding:5px 0 0; margin:0;}
+#left h2, #left h1 {clear:both;}
+
+#faqRoot{margin:0 auto;padding:0;}
+#faq{float:left;display:block;margin:0 auto;}
+#faq{margin-bottom:25px;}
+#faq .faqcontent{}
+#faq h2.faqopened,#faq h2.faqclosed{cursor:pointer;padding:15px 0 3px 20px;border-bottom:dotted 1px #ccc;margin-bottom:0;}
+#faq h2.faqclosed:hover{color:#538815;}
+#faq h2.faqclosed{color:#444;background:transparent url(/images/collapsed.png) no-repeat scroll 0 19px;}
+#faq h2.faqopened{color:#538815;background:transparent url(/images/expanded.png) no-repeat scroll 0 19px;}
+.compatibility #FAQCont #faqRoot #faq h2.faqopened{display:block;cursor:pointer;padding:5px 10px 0 12px;border-bottom:none 1px #ccc;line-height:20px;font-size:1em;}
+.compatibility #FAQCont #faqRoot #faq h2.faqclosed{display:inline;cursor:pointer;padding:5px 10px 0 12px;border-bottom:none 1px #ccc;line-height:20px;font-size:1em;}
+.compatibility #FAQCont #faqRoot #faq h2.faqclosed:hover{color:#538815;}
+.compatibility #FAQCont #faqRoot #faq h2.faqclosed{color:#252525;background:transparent url(/images/collapsed.png) no-repeat scroll 0 7px;}
+.compatibility #FAQCont #faqRoot #faq h2.faqopened{display:block;background:transparent url(/images/expanded.png) no-repeat scroll 0 12px;}
+#logos{background-color:#FFF;padding-bottom:25px;}
+#logos img{padding-bottom:15px;padding-left:55px;padding-right:15px;text-align:center;}

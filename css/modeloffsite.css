@@ -1,0 +1,47 @@
+/** Computer Builder **/
+#footerCnt{display:none;}
+#compBuilder{width:800px;}
+* html #compBuilder{background:none;background:url(../images/compBuilder_bg.gif);background-attachment:fixed;}
+#leftCol{width:800px;line-height:16px;}
+#leftCol p{padding:0;}
+#rightCol{background:url(../images/compBuilder_bg.png);background-attachment:fixed;position:absolute;width:190px;left:800px;top:85px;bottom:0;overflow-y:auto;overflow-x:hidden;height:100%;min-height:100%;}
+* html #rightCol{background:none;background:url(../images/compBuilder_bg.gif);background-attachment:fixed;}
+.compItem{background:#FFF url(../images/compItem_bg.png) repeat-x bottom;margin-bottom:40px;padding-bottom:3px;overflow:auto;width:100%;}
+#modelHeader{padding:0 20px;}
+#modelHeader h1 img{padding-left:10px;}
+#modelHeader h1{padding-bottom:0;color:#1b1b1b;font-family:Georgia, Palatino Linotype;font-size:1.7em;letter-spacing:-1px;}
+#modelHeader p{font-size:1.2em;padding:7px 0 0;}
+.compItem .header{height:51px;padding-bottom:4px;background:url(../images/subType_header_bg.gif) repeat-x bottom;position:relative;}
+.compItem .header h2{padding:0 20px;line-height:51px;}
+.compItem .header img{position:absolute;top:0;right:20px;}
+.subTypeTitle{color:#242424;font-weight:700;padding-right:20px;display:inline;}
+.subTypeDesc{font-weight:400;padding-left:20px;display:inline;}
+#modelInfo{overflow:auto;float:left;}
+#modelInfoCont{}
+#modelInfoLeftCol{float:left;width:645px;}
+#modelInfoRightCol{float:right;width:135px;text-align:center;padding-right:20px;}
+#modelInfoRightCol img{padding:10px 0;}
+#modelInfoRightCol h3{text-decoration:underline;padding:0 0 10px;}
+#modelInfoRightCol h4{padding:0;}
+#modelInfoRightCol p{padding:0;}
+.partTypeInfo{padding:15px;}
+#leftCol .parttype p {padding:5px 0 5px 0;}
+
+#partDetailsCont {position:relative;overflow:auto;width:800px;background:white;}
+#partDetailsHeader{color:#242424;margin-top:55px;padding:0 0 0 0px;background:url(../images/subType_header_bg.gif) repeat-x top;position:relative;width:800px;overflow:hidden;}
+#partDetailsHeader h1{color:#242424;line-height:55px;padding:0 0 0 20px;font-size:1.2em;font-family:Verdana,Arial,Helvetica,sans-serif;overflow:hidden;}
+#partDetails {padding-top:1px;display:inline;}
+#partDetails #content {overflow:hidden;}
+#partDetails #content img {height:400px}
+#partDetails #details #info {width:649px;height:500px;padding-top:0;padding-bottom:0;}
+/*#partDetails h1{color:#242424;line-height:55px;margin-top:-55px;padding:0 0 0 20px;background:url(../images/subType_header_bg.gif) repeat-x bottom;font-size:1.2em;font-family:Verdana,Arial,Helvetica,sans-serif;position:absolute;width:780px;overflow:hidden;}*/
+#details{padding-right:0;position:relative;}
+#details li{margin-left:1px;}
+#details table li{margin-left:25px;}
+#details table td{width:25%;}
+#partDetails #leftNav{padding-top:15px;margin:0;float:left;text-align:center;width:150px;background:white}
+#partDetails #leftNav li{padding-bottom:10px;text-align:center;list-style:none;}
+
+#breadCrumb{width:774px;}
+/*.part:hover , .partMedium:hover, .partLarge:hover { background: url(../images/part_hover.gif) repeat-x; }*/.selectedPart{background:url(../images/part_selected.gif) repeat-x;}
+

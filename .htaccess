@@ -1,0 +1,19 @@
+php_value max_execution_time 90
+php_flag magic_quotes_gpc Off
+ErrorDocument 404 /index.php
+Options Indexes
+Options FollowSymLinks
+RewriteEngine on
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^reyniersaudio.com$ [NC]
+RewriteRule ^(.*)$ http://www.reyniersaudio.com/$1 [R=301,L]
+RewriteRule ^daw/digital-audio-workstation-computer-comparison$ /index.php?task=browse&view=models
+RewriteRule ^daw/([^/.]+)$ /index.php?task=browse&view=model&modelId=$1
+RewriteRule ^about/([^/.]+)$ /index.php?task=browse&view=about&subView=$1
+RewriteRule ^support/([^/.]+)$ /index.php?task=browse&view=support&subView=$1
+RewriteRule ^recording-computer-studio-gear/audio-interfaces$ /index.php?task=browse&view=studio-gear&partTypeId=62
+RewriteRule ^recording-computer-studio-gear/audio-interfaces/([^/.]+)$ /index.php?task=browse&view=studio-gear&partTypeId=62$1
+RewriteRule ^recording-computer-studio-gear/audio-software$ /index.php?task=browse&view=studio-gear&partTypeId=79
+RewriteRule ^recording-computer-studio-gear/audio-software/([^/.]+)$ /index.php?task=browse&view=studio-gear&partTypeId=79$1
+RewriteRule ^part/([^/.]+)$ /ajax/view_partDetails.php?id=$1
+RewriteRule ^recording-computer-studio-gear/product/([^/.]+)$ /index.php?task=browse&view=part&part=$1

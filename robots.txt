@@ -1,0 +1,10 @@
+Sitemap: http://www.reyniersaudio.com/sitemap.xml
+User-agent: *
+Disallow: /index.php?task=browse&
+Disallow: /ajax/
+Disallow: /parts/
+Disallow: /part/
+Disallow: /recording-computer-studio-gear/audio-interfaces/&filters=
+Disallow: /recording-computer-studio-gear/audio-interfaces/&order_by=
+Disallow: /recording-computer-studio-gear/audio-software/&filters=
+Disallow: /recording-computer-studio-gear/audio-software/&order_by=

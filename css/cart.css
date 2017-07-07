@@ -1,0 +1,82 @@
+<style>
+.xctr {background:#fff; padding:0px; width:1000px;}
+div#heading.xctr {overflow:hidden;width:100%;}
+#head_error .error {background-color:white; padding:10px;}
+.w3c .ctr{margin-left:0; margin-right:0;}
+#cart_page {max-width:100%;min-width:100%;width:100%;padding:0;margin:0;}
+.iel #cart_page {
+width:expression( document.body.clientWidth < 799 ? "100%" :document.body.clientWidth > 801 ? "100%" :"100%");
+}
+.emailcart {color: white;}
+div#heading {text-align:left;}
+#heading {width:100%; height: 111px;}
+tr.cart_header {border-bottom:0;}
+#heading {width:100%; background:transparent url(https://www.ewebcart.com/images/public/13951/logo-1257558227.jpg) repeat-x 0px -112px scroll;height: 111px;}
+tr.cart_header td {height:55px; border-bottom:0;}
+#shopping_cart {border:none;  border-collapse:collapse;}
+#shopping_cart td.r  {display:none;}
+#shopping_cart td.l {display:none;}
+tr.cart_header td.item_desc{padding-left:30px;}
+div.item_description{padding-left:30px; }
+div.item_description b{line-height:30px;}
+#shopping_cart .cart_body td {padding-top:20px; padding-bottom:20px;}
+#customer_code_w label {color:#fff}
+#cart_page #main {width:1000px;background:#191919;}
+.btn_update{min-width:55px;width:55px;}
+.btn_update:hover{background-position:-55px;}
+.btn_calculate{min-width:81px;width:81px;}
+.btn_calculate:hover{background-position:-81px;}
+.btn_to_checkout{min-width:135px;width:135px;}
+.btn_to_checkout:hover{background-position:-135px;}
+.btn_back2shop{min-width:135px;width:135px;}
+.btn_back2shop:hover{background-position:-135px;}
+.btn_customer_code{min-width:63px;width:63px;}
+.btn_customer_code:hover{background-position:-63px;}
+.btn_submit{min-width:63px;width:63px;}
+.btn_submit:hover{background-position:-63px;}
+.btn_back{min-width:69px;width:69px;}
+.btn_back:hover{background-position:-69px;}
+.btn_continue{min-width:69px;width:69px;}
+.btn_continue:hover{background-position:-69px;}
+a.cart_button:hover {background-color:transparent;}
+
+body{font-size:.75em;font-family:"Segoe UI", Tahoma, Helvetica, Verdana, Arial, "Trebuchet MS", sans-serif;line-height:1.3em;color:#252525;/*background-color:#191919;*/background-repeat:no-repeat;background-position:bottom right;background-attachment:fixed;margin:0px; padding:1px 0 0 0 ;text-align:left;}
+#payment_info {margin: 14px 0 0 15px;}
+h4 {font-size:1.3em;padding:0 0 8px; line-height:1.4em;}
+div#main.ctr div.xctr div.ctr{padding:45px;}
+h2 {text-align: center;}
+#shopping_cart .cart_body td {border-width:0 0 0 0;}
+.btn_update{margin: 3px;}
+#back2shop_w {padding-left:15px;padding-top:10px;}
+#customer_code_w {padding:0 0 0 15px;}
+fieldset.we_accept_logos {margin-left:15px;}
+#progress_bar {margin-top:15px;}
+#progress_bar .page_label {color:black;}
+#shipping_header {padding-top:0px;}
+#cart_msg  table td{padding:15px 15px 15px 30px;margin:0;}
+#cart_msg  table p,#cart_msg  table h4{margin:0;padding:0;}
+.customer_info h3 {float: none;}
+.rightmenu .col1 {width:50%;}
+#head_error h4 {color:#242424}
+.ie .xctr {text-align:left;}
+.ie .ctr {display:block;}
+/*payment page*/
+#shipping_page{width:100%;text-align:left;}
+#payment_page{width:100%;text-align:left;}
+#review_page{width:100%;text-align:left;}
+#complete_page{width:100%;text-align:left;}
+
+#shipping_page #main {background-color:white;padding:25px; padding-top:65px;color: #242424;width:950px; margin-top:1px;}
+#payment_page #main {background-color:white;padding:25px; padding-top:65px;color: #242424;width:950px; margin-top:1px;}
+#review_page #main {background-color:white;padding:25px; padding-top:65px;color: #242424;width:950px; margin-top:1px;}
+#complete_page #main {background-color:white;padding:25px; padding-top:65px;color: #242424;width:950px; margin-top:1px;}
+#complete_page .mail_instructions td {padding-left:10px;}
+#complete_page #page_head td.method {border-color:#d7d7d7;}
+div#navbuttons {padding-top:25px;}
+#payment_info {margin:0; padding:0;}
+#cart_ship_footer {background-color:white;}
+#checkout_box {padding: 0px 5px 0px 5px}
+#shipping_address label {display:inline;}
+#shipping_address .group {}
+i {color:white;}
+</style>

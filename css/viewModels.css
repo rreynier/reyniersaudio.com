@@ -1,0 +1,60 @@
+/** Main Container **/
+#viewModels{width:1000px;background-color:#191919;color:#FFF;background:#191919 url(../images/models_bg.png) no-repeat top left;border-bottom:10px solid #252525;}
+
+/** Top Section: Models Overview **/
+#modelsOverview{padding:0px;}
+#modelsOverview li {background:none;}
+ul#modelBoxes{width:930px;overflow:auto;padding:20px;text-align:center;line-height:1.6em;}
+ul#modelBoxes li{margin-top:30px;display:block;float:left;width:170px;height:240px;padding-left:5px;padding-right:5px;padding-bottom:18px;border-right:1px solid #000;border-left:1px solid #2e2d2d;overflow:hidden;}
+ul#modelBoxes li.first{border-left:none;}
+ul#modelBoxes li.last{border-right:none;}
+#modelsComparisonTable{background-color:#fff;width:100%;}
+.modelBox{height:100px;}
+.basePrice{color:#f3d78f;font-size:1em;font-weight:400;}
+.basePriceWhite{color:#fff;font-size:1em;}
+.modelName{text-align:center;padding:5px 0 0;font-size:1.2em;font-weight:700;font-family:'Century Gothic','Lucida Grande',verdana,sans-serif;display:block;}
+.customizeButton{position:relative;height:26px;width:92px;float:left;margin-left:9px;margin-top:7px;}
+.customizeButton a{display:block;position:absolute;height:26px;width:92px;top:0;left:0;background:url(../images/customizebutton.png) no-repeat top left;text-indent:-2000px;}
+.customizeButton a:hover{background-position:-92px;top:0;left:0;}
+.customizeButton a:active{background-position:-184px;top:0;left:0;}
+.compareModel{float:left;padding-left:10px;color:#717171;line-height:1.1em;margin-top:7px;text-align:left;}
+.orange{color:#bf7040;}
+
+/** Middle Section: Moddel Description **/
+#modelDescription #left{clear:both;float:left;width:430px;padding-right:15px;}
+#modelDescription #right{float:left;width:450px;padding-left:15px;}
+#modelDescription{width:930px;overflow:auto;padding:0px 20px 0px;}
+#modelDescription #left a:before{content:"\00BB \0020";}
+#modelDescription #left a{display:inline;line-height:1em;padding:0;color:#538815;border-left:none;font-weight:400;font-size:1em;text-decoration:underline;}
+#modelDescription #left a:hover{color:#BF7040;}
+#viewModels p{padding-left:20px;padding-top:0;color:#717171;}
+#viewModels h3{padding-left:20px;color:#e8e8e8;background:url(../images/bullet.gif) no-repeat 0 65%;}
+#modelDescription ul{padding:0;margin:0;margin-left:10px;color:#717171;width:440px;overflow:hidden;}
+#modelDescription li{list-style-position:inside;padding:0;margin:0;float:left;width:220px;padding:5px 0;}
+div.group div.spacer {padding-bottom:5px;}
+div.group h5 {padding-bottom:1px;}
+/** Bottom Section **/
+table.table1 { width: 100%;}
+#viewModels h2.whiteBar{border-top:10px solid #252525;border-bottom:0 solid #000;color:#EBEBEB;}
+#modelsCompTable{background-color:#FFF;}
+#viewModels table p{padding-left:0;padding-top:0;color:#404040;}
+table.table1 h5{font-family:'Century Gothic','Lucida Grande',verdana,sans-serif;font-size:1.5em;padding:0;margin:0;font-weight:700;line-height:1.1em;}
+table.table1 h6{font-size:1em;padding:0;margin:0;font-weight:400;line-height:1.2em;}
+table.table1 .modelTitle{display:block;font-family:'Century Gothic','Lucida Grande',verdana,sans-serif;font-size:1.2em;padding:0;margin:0;font-weight:700;line-height:1.1m;}
+table.table1 .modelDesc{display:block;font-size:1em;padding:0;margin:0;font-weight:400;line-height:1.2em;}
+table.table1 .modelPrice{display:block;font-size:1em;padding:0;margin:0;font-weight:400;line-height:1.5em;}
+table.table1 strong{color:#252525;}
+table.table1 p{color:#404040;}
+table.table1{border-collapse:collapse;border-style:none;/*font-family: Verdana, Geneva, sans-serif*/color:#404040;}
+table.table1 th,table.table1 td{border-right-width:1px;border-left-width:1px;border-top-style:none;border-right-style:solid;border-bottom-style:none;border-left-style:solid;border-right-color:#fff;border-left-color:#fff;padding:10px;}
+table.table1 th{text-align:left; padding-top:0px;}
+table.table1 th.bc{background-color:#fff;}
+table.table1 th.selected{background-color:#fc8f4e;}
+table.table1 tr{font-size:1em;}
+table.table1 tr.d0{background-color:#f5f5f5;}
+table.table1 tr.d1{background-color:#ebebeb;}
+table.table1 tr.d2{background-color:#fff;text-align:left;}
+table.table1 tr.d2 img {padding-top:5px;}
+table.table1 td.rh{text-align:right;padding-right:25px;}
+table.table1 br{line-height:0;}
+#modelsCompTable .customizeButton{margin-left:0;margin-bottom:5px;}
